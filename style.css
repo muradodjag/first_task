@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("./cloud.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+nav .nav-right {
+    display: flex;
+}
+
+nav .nav-right>h4 {
+    margin-right: 20px;
+}
+
+
+
+.center-text {
+    position: absolute;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
